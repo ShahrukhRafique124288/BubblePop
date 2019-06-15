@@ -17,7 +17,7 @@ public class GamePlayController : Singleton<GamePlayController>
     private bool m_isLevelUp;
 
     private WaitForSeconds m_allowShootCRWait;
-    private readonly float m_allowShootCRDelay = 0.5f;
+    private readonly float m_allowShootCRDelay = 1f;
 
     #endregion Variable And Properties
 
